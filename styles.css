@@ -6,31 +6,28 @@ body {
 
 h1 {
   text-align: center;
-  color: rgb(236, 202, 8);
+  color: #eee;
 }
 
 section {
-  margin: 2rem auto;
-  width: 95%;
-  max-width: 50rem;
   padding: 1rem 2rem;
   border-radius: 6px;
-  background-color: rgb(253, 251, 216);
+  background-color: #eafbff;
 }
 
 button {
   font: inherit;
   cursor: pointer;
-  background-color: rgb(236, 202, 8);
-  border: 1px solid rgb(236, 202, 8);
-  color: rgb(29, 28, 26);
+  background-color: #20201d;
+  border: 1px solid #20201d;
+  color: #eee;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
 }
 
 button:hover {
-  background-color: rgb(236, 183, 8);
-  border-color: rgb(236, 183, 8);
+  background-color: #3d3d3d;
+  border-color: #3d3d3d;
 }
 
 .control {
@@ -59,24 +56,34 @@ input {
 }
 
 input:focus {
-  background-color: rgb(248, 239, 187);
+  background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
-  color: rgb(236, 145, 8);
+  color: #2799ff;
+  font-weight: 600;
 }
 
 .output {
   font-weight: bold;
-  background-color: rgb(233, 191, 55);
+  background-color: #ffd13c;
   padding: 0.25rem;
   border-radius: 4px;
 }
 
-a.highlight {
-  background-color: rgb(63, 4, 141);
+.sum_output {
+  font-weight: bold;
+  background-color: #ffffffb0;
   padding: 0.25rem;
+  border-radius: 4px;
+  border: 2px solid;
+}
+
+a.highlight {
+  background-color: #7cb2d5;
+  padding: 0.25rem;
+  color: #ffffff;
 }
 
 #calculated-sum {
@@ -146,4 +153,16 @@ a.highlight {
 
 ::-webkit-scrollbar-corner {
   background: transparent;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  gap: 2rem;
+  max-width: 75%;
+  margin: auto;
+}
+
+#highlight-links p {
+  line-height: 1.3rem;
 }
