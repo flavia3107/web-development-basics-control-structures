@@ -1,0 +1,149 @@
+body {
+  margin: 1.5rem;
+  font-family: sans-serif;
+  background-color: rgb(32, 32, 29);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(236, 202, 8);
+}
+
+section {
+  margin: 2rem auto;
+  width: 95%;
+  max-width: 50rem;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  background-color: rgb(253, 251, 216);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: rgb(236, 202, 8);
+  border: 1px solid rgb(236, 202, 8);
+  color: rgb(29, 28, 26);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(236, 183, 8);
+  border-color: rgb(236, 183, 8);
+}
+
+.control {
+  margin: 1rem 0;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  font: inherit;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid rgb(156, 153, 136);
+  width: 3rem;
+  max-width: 100%;
+  padding: 0.5rem;
+  color: rgb(66, 63, 44);
+}
+
+input:focus {
+  background-color: rgb(248, 239, 187);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(236, 145, 8);
+}
+
+.output {
+  font-weight: bold;
+  background-color: rgb(233, 191, 55);
+  padding: 0.25rem;
+  border-radius: 4px;
+}
+
+a.highlight {
+  background-color: rgb(63, 4, 141);
+  padding: 0.25rem;
+}
+
+#calculated-sum {
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  display: none;
+}
+
+.logo {
+  text-decoration: none;
+  width: 10rem;
+  display: flex;
+  text-decoration: none;
+}
+
+.logo > img {
+  height: 35px;
+}
+
+.logo-txt {
+  padding-left: 7px;
+  display: flex;
+  flex-direction: column;
+  color: #eee;
+  align-items: flex-start;
+}
+
+.logo-img {
+  width: 2rem;
+  margin-right: 3px;
+}
+
+.logo-txt h1,
+.logo-txt span {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 4px;
+}
+
+.logo-txt h1 {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-top: 2px;
+  color: #eee;
+}
+
+.logo-txt span {
+  font-weight: lighter;
+  font-size: 0.85rem;
+}
+::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  width: 9px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
